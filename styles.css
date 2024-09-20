@@ -9,15 +9,40 @@ header{
     flex-wrap: wrap;
     font-size: 4vw;
     font-family: 'Times New Roman', Times, serif;
+    background: grey;
+    
 }
 nav{
-    display: flex;
+
+    width: 1000%;
+    align-items: center;
+    justify-content: center;
    
-  
+
 }
 
-nav li a{
+
+nav ul {
+    
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: grey;
+    list-style: none;
+
+   
+}
+
+nav ul li a{
     text-decoration: none;
     color: black;
+    font-size: 3vw;
+    width: auto;
+   
 
+}
+nav ul li a:hover{
+    background: white;
+    color: black;
 }
