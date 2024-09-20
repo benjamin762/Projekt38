@@ -1,5 +1,7 @@
 body{
-
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
 header{
     text-align: center;
@@ -35,6 +37,7 @@ nav ul {
     margin-right: 4rem;
     font-size: 3vw;
    
+  
 }
 nav ul li a{
     text-decoration: none;
@@ -44,30 +47,18 @@ nav ul li a{
    
 
 }
-nav ul li a:hover{
-    background: white;
-    color: black;
+
+
+.first {
+    display: flex
+
 }
 
-/* Media queries */
-/* Mobil */
-@media (max-width: 480px) {
-    body {
-        /* background-color: black; */
-    }
+footer {
+    background-color: #777777;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
 }
-
-/* Surfplatta */
-@media (min-width: 481px) {
-    body {
-        /* background-color: yellow; */
-    }
-}
-
-/* Dator */
-@media (min-width: 1024px) {
-    body {
-        /* background-color: blue; */
-    }
-}
-
