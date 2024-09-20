@@ -11,18 +11,41 @@ header{
     flex-wrap: wrap;
     font-size: 4vw;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #777777;
+    background: grey;
+    border-radius: 10px;
+    
 }
 nav{
+
+    width: 1000%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+ 
+
+}
+
+nav ul {
+    
+    flex: 1;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: grey;
+    list-style: none;
+    margin-right: 4rem;
+    font-size: 3vw;
    
   
 }
-
-nav li a{
+nav ul li a{
     text-decoration: none;
     color: black;
-
+}
+nav ul li a:hover{
+    background: white;
+    color: black;
 }
 
 .container {

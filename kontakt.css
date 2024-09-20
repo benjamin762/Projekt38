@@ -1,4 +1,67 @@
+body {
+    display: grid;
+    grid-template-rows: auto;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
 
+header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    background: grey;
+    border-radius: 10px;
+    
+}
+nav{
+
+    width: 1000%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+ 
+
+}
+
+nav ul {
+    
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: grey;
+    list-style: none;
+    margin-right: 4rem;
+    font-size: 3vw;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+  
+    
+   
+
+}
+nav ul li a:hover{
+    background: white;
+    color: black;
+}
 
 
 
@@ -9,20 +72,33 @@
 /* Mobil */
 @media (max-width: 480px) {
     body {
-        /* background-color: black; */
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "main"
+            "footer";
     }
 }
 
 /* Surfplatta */
 @media (min-width: 481px) {
     body {
-        /* background-color: yellow; */
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "header nav"
+            "main main"
+            "footer footer";
     }
 }
 
 /* Dator */
 @media (min-width: 1024px) {
     body {
-        /* background-color: blue; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "header header header"
+            "nav main main"
+            "footer footer footer";
     }
 }
