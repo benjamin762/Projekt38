@@ -1,6 +1,7 @@
 body {
     display: grid;
     grid-template-rows: auto;
+    margin: 0;
 }
 header {
     grid-area: header;
