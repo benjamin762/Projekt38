@@ -50,26 +50,25 @@ nav ul li a:hover{
 
 .container {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .first-pro {
     border: solid .5rem black;
-    display: flex;
+    flex: 1 1 calc(50% - 1rem);
 }
 
 
 .second-pro {
     border: solid .5rem black;
-    display: flex;
-
+    flex: 1 1 calc(50% - 1rem);
 }
 
 .third-pro {
     border: solid .5rem black;
-    display: flex;
+    flex: 1 1 calc(50% - 1rem);
 }
+
 footer {
     background-color: #777777;
     bottom: 0;
