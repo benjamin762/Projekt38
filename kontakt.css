@@ -62,7 +62,14 @@ nav ul li a:hover{
     background: white;
     color: black;
 }
-
+footer {
+    background-color: #777777;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
 
 
 
