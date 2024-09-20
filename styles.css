@@ -10,6 +10,7 @@ header{
     font-size: 4vw;
     font-family: 'Times New Roman', Times, serif;
     background: grey;
+    border-radius: 10px;
     
 }
 nav{
@@ -17,10 +18,11 @@ nav{
     width: 1000%;
     align-items: center;
     justify-content: center;
-   
+    text-align: center;
+    flex: 1;
+ 
 
 }
-
 
 nav ul {
     
@@ -30,15 +32,15 @@ nav ul {
     align-items: center;
     background: grey;
     list-style: none;
-
+    margin-right: 4rem;
+    font-size: 3vw;
    
 }
-
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 3vw;
-    width: auto;
+  
+    
    
 
 }
