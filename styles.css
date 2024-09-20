@@ -46,3 +46,47 @@ nav ul li a:hover{
     background: white;
     color: black;
 }
+
+/* Media queries */
+/* Mobil */
+@media (max-width: 480px) {
+    body {
+        /* background-color: black; */
+    }
+}
+
+/* Surfplatta */
+@media (min-width: 481px) {
+    body {
+        /* background-color: yellow; */
+    }
+}
+
+/* Dator */
+@media (min-width: 1024px) {
+    body {
+        /* background-color: blue; */
+    }
+}
+
+/* Media queries */
+/* Mobil */
+@media (max-width: 480px) {
+    body {
+        /* background-color: black; */
+    }
+}
+
+/* Surfplatta */
+@media (min-width: 481px) {
+    body {
+        /* background-color: yellow; */
+    }
+}
+
+/* Dator */
+@media (min-width: 1024px) {
+    body {
+        /* background-color: blue; */
+    }
+}
