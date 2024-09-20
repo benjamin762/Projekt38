@@ -55,18 +55,18 @@ nav ul li a:hover{
 
 .first-pro {
     border: solid .5rem black;
-    flex: 1 1 calc(50% - 1rem);
+    flex: 1 1 1;
 }
 
 
 .second-pro {
     border: solid .5rem black;
-    flex: 1 1 calc(50% - 1rem);
+    flex: 1 1 1;
 }
 
 .third-pro {
     border: solid .5rem black;
-    flex: 1 1 calc(50% - 1rem);
+    flex: 1 1 1;
 }
 
 footer {
@@ -80,24 +80,36 @@ footer {
 
 
 
-/* Media queries */
-/* Mobil */
-@media (max-width: 480px) {
-    body {
-        /* background-color: black; */
-    }
-}
 
 /* Surfplatta */
 @media (min-width: 481px) {
     body {
-        /* background-color: yellow; */
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+    }
+    .first-pro {
+        margin: .5rem;
+    }
+    .second-pro {
+        margin: .5rem;
+    }
+    .third-pro {
+        margin: .5rem;
     }
 }
 
 /* Dator */
 @media (min-width: 1024px) {
     body {
-        /* background-color: blue; */
+       font-size: larger;
+    }
+    .first-pro {
+        margin: 1rem;
+    }
+    .second-pro {
+        margin: 1rem;
+    }
+    .third-pro {
+        margin: 1rem;
     }
 }
