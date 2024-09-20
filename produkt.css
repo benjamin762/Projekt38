@@ -48,11 +48,28 @@ nav ul li a:hover{
     color: black;
 }
 
-.first {
-    display: flex
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.first-pro {
+    border: solid .5rem black;
+    display: flex;
+}
+
+
+.second-pro {
+    border: solid .5rem black;
+    display: flex;
 
 }
 
+.third-pro {
+    border: solid .5rem black;
+    display: flex;
+}
 footer {
     background-color: #777777;
     bottom: 0;
