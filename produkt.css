@@ -25,12 +25,28 @@ nav li a{
 
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
-.first {
-    display: flex
+.first-pro {
+    border: solid .5rem black;
+    display: flex;
+}
+
+
+.second-pro {
+    border: solid .5rem black;
+    display: flex;
 
 }
 
+.third-pro {
+    border: solid .5rem black;
+    display: flex;
+}
 footer {
     background-color: #777777;
     bottom: 0;
