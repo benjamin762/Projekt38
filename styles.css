@@ -1,0 +1,23 @@
+body{
+
+}
+header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+   
+  
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+
+}
