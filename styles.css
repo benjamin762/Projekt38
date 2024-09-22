@@ -73,10 +73,6 @@ main section{
 }
 
 
-.first {
-    display: flex
-
-}
 
 footer {
     background-color: #777777;
@@ -90,9 +86,6 @@ footer {
 /* Media queries */
 /* Mobil */
 @media (max-width: 480px) {
-    body {
-        /* background-color: black; */
-    }
     main{
         grid-template-columns: 1fr;
     }
@@ -100,9 +93,6 @@ footer {
 
 /* Surfplatta */
 @media (min-width: 481px) {
-    body {
-        /* background-color: yellow; */
-    }
     main{
         grid-template-columns: 1fr 2fr;
     }
@@ -110,9 +100,6 @@ footer {
 
 /* Dator */
 @media (min-width: 1024px) {
-    body {
-        /* background-color: blue; */
-    }
     main{
         grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr;
