@@ -54,16 +54,7 @@ nav ul li a:hover{
     justify-content: space-around;
 }
 
-.first-pro {
-    border: solid .5rem black;
-}
-
-
-.second-pro {
-    border: solid .5rem black;
-}
-
-.third-pro {
+.produkter {
     border: solid .5rem black;
 }
 
